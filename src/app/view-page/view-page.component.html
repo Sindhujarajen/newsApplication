@@ -1,0 +1,15 @@
+<div class="bg-color mt-1">
+    <h4 class="chg-clr">Top Headlines</h4>
+    <div class="row">
+      <div class="col-lg-3 mt-3 mb-3"
+       *ngFor="let headlines of topHeadLinesResult">
+        <div class="card">
+          <img src="{{ headlines.urlToImage }}" width="100%" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">{{ headlines.title }}</h5>
+            <a href="{{ headlines.url }}" target="_blank" class="btn btn-dark btn-sm mt-2">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

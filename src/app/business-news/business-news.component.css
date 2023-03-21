@@ -1,0 +1,34 @@
+.bg-color{
+    background-color:rgb(226, 208, 240);
+}
+.card {
+    background-image: linear-gradient(indigo, violet);
+}
+
+:hover.card {
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+:hover.btn {
+    background-color: rgb(238, 19, 19);
+    color: black;
+    font-weight: bolder;
+    border-color: rgb(228, 18, 18);
+
+}
+.chg-clr {
+    font-weight: bold;
+}
+
+:hover.chg-clr {
+    color: magenta;
+    text-decoration: underline;
+}
+.card-title{
+    font-weight: bold;
+    font-size: large;
+}
+:hover.card-body {
+    text-decoration: underline;
+}

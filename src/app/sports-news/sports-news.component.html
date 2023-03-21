@@ -1,0 +1,17 @@
+<div class="container-fluid mt-1">
+    <h4 class="chg-clr">Sports News</h4>
+    <div class="row">
+        <div class="col-lg-3 mt-3 mb-3" 
+        *ngFor="let sports of sportsNewsResult">
+            <div class="card">
+                <img src="{{ sports.urlToImage }}" width="100%" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">{{ sports.title }}</h5>
+                    <a href="{{ sports.url }}" 
+                    target="_blank" 
+                    class="btn btn-dark btn-sm mt-1">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

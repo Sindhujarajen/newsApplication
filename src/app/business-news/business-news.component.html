@@ -1,0 +1,16 @@
+<div class="bg-color">
+    <div class="container-fluid mt-1">
+        <h4 class="chg-clr"> Business News</h4>
+        <div class="row">
+            <div class="col-lg-3 mt-3 mb-3" *ngFor="let business of businessNewsResult">
+                <div class="card">
+                    <img src="{{ business.urlToImage }}" width="100%" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title">{{ business.title }}</h5>
+                        <a href="{{ business.url }}" target="_blank" class="btn btn-dark btn-sm mt-2">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

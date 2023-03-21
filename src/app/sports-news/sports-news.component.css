@@ -1,0 +1,31 @@
+.container-fluid{
+    background-color:lavenderblush;
+}
+.card{
+    background-image: linear-gradient(plum,pink);
+    
+}
+:hover.card{
+    transform:scale(1.10);
+    cursor: pointer;
+}
+:hover.btn{
+   background-color:rgb(24, 218, 127);
+   color: black;
+    font-weight: bolder;
+   border-color: rgb(47, 223, 126);
+}
+.chg-clr {
+    font-weight: bold;
+}
+:hover.chg-clr{
+   color: magenta;
+   text-decoration: underline;
+}
+.card-title{
+    font-weight: bold;
+    font-size: large;
+}
+:hover.card-body{
+    text-decoration: underline;
+}
